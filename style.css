@@ -1,0 +1,22 @@
+@import "reset.css";
+
+.back{
+  margin: auto;
+  display: flex;
+  width: 97vw;
+  height: 100vh;
+  background: #000000;
+}
+
+ header {
+  display: flex;
+  height: 60px;
+
+}
+
+.logo {
+  display: flex;
+  height: 50px;
+  margin-top: 6px;
+  margin-left: 25px;
+}
