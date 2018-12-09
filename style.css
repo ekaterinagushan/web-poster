@@ -1,22 +1,118 @@
 @import "reset.css";
 
-.back{
-  margin: auto;
-  display: flex;
-  width: 97vw;
-  height: 100vh;
-  background: #000000;
-}
-
  header {
   display: flex;
   height: 60px;
-
 }
 
-.logo {
+.square{
+  position: absolute;
+  width: 200px;
+  height: 56px;
+  border-radius: 10%;
+  background: #0000cc;
+  margin-top: 10px;
+  margin-left: 1018px;
+  z-index: 5;
+}
+
+.square_1{
+  position: absolute;
+  width: 200px;
+  height: 56px;
+  border-radius: 10%;
+  background: #ff0000;
+  margin-top: 10px;
+  margin-left: 1218px;
+  z-index: 3;
+}
+
+
+article{
+ display: flex;
+}
+
+.back{
   display: flex;
-  height: 50px;
-  margin-top: 6px;
-  margin-left: 25px;
+  position: absolute;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 97vw;
+  height: 990px;
+  background: #000000;
+  z-index: 8;
+}
+
+#layout-1{
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 622px;
+}
+
+#layout-2{
+  position: absolute;
+  margin-left: 70px;
+  margin-top: 90px;
+  width: 622px;
+}
+
+#layout-3{
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 60px;
+  width: 682px;
+}
+
+#layout-4{
+  position: absolute;
+  margin-left: 140px;
+  margin-top: 400px;
+  width: 682px;
+}
+
+body header .square p{
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 5%;
+  font-size: 2em;
+}
+
+body header .square_1 p{
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 5%;
+  font-size: 2em;
+}
+
+.square_2{
+  position: absolute;
+  margin-left: 648px;
+  margin-top: 80px;
+  width: 750px;
+  height: 60px;
+  background-color: #ffff00;
+}
+
+body article .back .square_2 p{
+ font-size: 4em;
+ margin-left: 25%;
+ color: #000000;
+}
+
+/* body article .back .context p{
+  color: #ffffff;
+  font-size: 1.5em;
+  margin-top: 880px;
+  margin-left: 20px;
+} */
+
+.content{
+  margin-left: 750px;
+  margin-top: 200px;
+}
+body article .back .content p{
+  color: #ffffff;
+  text-align: left;
+  font-size: 3em;
 }
