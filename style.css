@@ -1,35 +1,20 @@
 @import "reset.css";
+@import "https://fonts.googleapis.com/css?family=Neucha";
+@import "https://fonts.googleapis.com/css?family=Montserrat";
 
- header {
+html{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.content_1{
   display: flex;
-  height: 60px;
-}
-
-.square{
   position: absolute;
-  width: 200px;
-  height: 56px;
-  border-radius: 10%;
-  background: #0000cc;
-  margin-top: 10px;
-  margin-left: 1018px;
-  z-index: 5;
-}
-
-.square_1{
-  position: absolute;
-  width: 200px;
-  height: 56px;
-  border-radius: 10%;
-  background: #ff0000;
-  margin-top: 10px;
-  margin-left: 1218px;
-  z-index: 3;
-}
-
-
-article{
- display: flex;
+  margin-left: -10px;
+  margin-right: 20px;
+  margin-top: 15px;
+  width: 97vw;
+  height: 1100px;
 }
 
 .back{
@@ -37,82 +22,135 @@ article{
   position: absolute;
   margin-left: 20px;
   margin-right: 20px;
+  margin-top: 15px;
   width: 97vw;
-  height: 990px;
+  height: 4000px;
   background: #000000;
   z-index: 8;
 }
 
 #layout-1{
   position: absolute;
-  margin-left: 100px;
+  margin-left: 200px;
   margin-top: 50px;
-  width: 622px;
+  width: 1000px;
+  z-index: 2;
 }
 
 #layout-2{
   position: absolute;
-  margin-left: 70px;
-  margin-top: 90px;
-  width: 622px;
+  margin-left: 150px;
+  margin-top: 120px;
+  width: 1000px;
+  z-index: 3;
 }
 
 #layout-3{
   position: absolute;
-  margin-left: 40px;
-  margin-top: 60px;
-  width: 682px;
+  margin-left: 65px;
+  margin-top: 25px;
+  width: 1182px;
+  z-index: 3;
 }
 
 #layout-4{
   position: absolute;
-  margin-left: 140px;
-  margin-top: 400px;
-  width: 682px;
+  margin-left: 240px;
+  margin-top: 900px;
+  width: 900px;
+  z-index: 4;
 }
 
-body header .square p{
+#layout-5{
   position: absolute;
-  margin-left: 30%;
-  margin-top: 5%;
-  font-size: 2em;
+  margin-left: 970px;
+  margin-top: 180px;
+  width: 400px;
+  z-index: 4;
+
 }
 
-body header .square_1 p{
+#layout-6{
   position: absolute;
-  margin-left: 30%;
-  margin-top: 5%;
-  font-size: 2em;
+  margin-left: 770px;
+  margin-top: 40px;
+  width: 600px;
+  z-index: 5;
 }
 
-.square_2{
+#layout-7{
   position: absolute;
-  margin-left: 648px;
-  margin-top: 80px;
-  width: 750px;
-  height: 60px;
-  background-color: #ffff00;
+  margin-left: 170px;
+  margin-top: 1200px;
+  width: 945px;
+  z-index: 5;
 }
 
-body article .back .square_2 p{
- font-size: 4em;
- margin-left: 25%;
- color: #000000;
+
+#layout-8{
+  position: absolute;
+  margin-left: 110px;
+  margin-top: 1000px;
+  width: 550px;
+  height: 1000px;
+  z-index: 1;
 }
 
-/* body article .back .context p{
-  color: #ffffff;
-  font-size: 1.5em;
-  margin-top: 880px;
-  margin-left: 20px;
-} */
+.layer {
+  overflow: hidden;
+  margin-top: 1050px;
+  margin-left: 130px;
+  width: 450px;
+  height: 865px;
+  padding: 5px;
+  z-index: 2;
+  }
 
-.content{
-  margin-left: 750px;
-  margin-top: 200px;
+p{
+ font-family: Montserrat;
+ font-size: 25px;
 }
-body article .back .content p{
-  color: #ffffff;
-  text-align: left;
-  font-size: 3em;
+
+
+
+.content_2{
+  display: flex;
+  position: absolute;
+  margin-right: 20px;
+  margin-top: 1300px;
+  width: 97vw;
+  height: 1600px;
+  overflow: hidden;
+}
+
+#layout-9{
+  position: absolute;
+  margin-top: 380px;
+  margin-left: -300px;
+  width: 700px;
+  z-index: 8;
+}
+
+#layout-10{
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 520px;
+  width: 700px;
+  z-index: 2;
+}
+
+#layout-11{
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 805px;
+  width: 560px;
+  z-index: 3;
+}
+
+#layout-12{
+  position: absolute;
+  margin-top: 710px;
+  margin-left: 410px;
+  width: 520px;
+  z-index: 3;
 }
