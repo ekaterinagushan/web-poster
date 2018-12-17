@@ -1,6 +1,6 @@
 @import "reset.css";
-@import "https://fonts.googleapis.com/css?family=Neucha";
 @import "https://fonts.googleapis.com/css?family=Montserrat";
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 
 html{
   -webkit-font-smoothing: antialiased;
@@ -24,7 +24,7 @@ html{
   margin-right: 20px;
   margin-top: 15px;
   width: 97vw;
-  height: 4000px;
+  height: 5000px;
   background: #000000;
   z-index: 8;
 }
@@ -106,7 +106,7 @@ html{
   z-index: 2;
   }
 
-p{
+.back .content_1 .layer p{
  font-family: Montserrat;
  font-size: 25px;
 }
@@ -153,4 +153,65 @@ p{
   margin-left: 410px;
   width: 520px;
   z-index: 3;
+}
+
+#layout-13{
+  position: absolute;
+  margin-top: 1250px;
+  margin-left: 295px;
+  width: 950px;
+  z-index: 3;
+}
+
+.back .content_2 p{
+  font-family: Montserrat;
+  font-size: 35px;
+  margin-top: 1320px;
+  margin-left: 315px;
+  margin-right: 230px;
+  font-weight: 700;
+  z-index: 4;
+}
+
+.content_3{
+  display: flex;
+  position: absolute;
+  margin-right: 20px;
+  margin-top: 2500px;
+  width: 97vw;
+  height: 1600px;
+  overflow: hidden;
+}
+
+#layout-14{
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 380px;
+  width: 550px;
+  z-index: 2;
+}
+
+#layout-15{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 850px;
+  width: 550px;
+  z-index: 2;
+}
+
+.back .content_3 p{
+  font-family: Pacifico;
+  margin-left: 390px;
+  margin-right: 550px;
+  margin-top: 380px;
+  font-size: 40px;
+  z-index: 2;
+}
+
+#layout-16{
+  position: absolute;
+  margin-top: 800px;
+  margin-left: 650px;
+  width: 550px;
+  z-index: 1;
 }
