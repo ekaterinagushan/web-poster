@@ -1,115 +1,149 @@
 @import "reset.css";
 @import "https://fonts.googleapis.com/css?family=Montserrat";
-@import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 html{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* transition:  */
 }
 
-.content_1{
-  display: flex;
-  position: absolute;
-  margin-left: -10px;
-  margin-right: 20px;
-  margin-top: 15px;
-  width: 97vw;
-  height: 1100px;
-}
 
-.back{
+
+.back {
   display: flex;
   position: absolute;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 15px;
+  left: 20px;
+  right: 20px;
+  top: 15px;
   width: 97vw;
-  height: 5000px;
+  height: 5280px;
   background: #000000;
   z-index: 8;
   overflow: hidden;
 }
 
-#layout-1{
+.content_1 {
+  display: flex;
   position: absolute;
-  margin-left: 200px;
-  margin-top: 50px;
-  width: 1000px;
+  left: -50px;
+  right: 20px;
+  top: 15px;
+  height: 1100px;
+  width: 100%
+}
+
+.layout-1 {
+  position: absolute;
+  left: 130px;
+  top: 580px;
+  width: 500px;
+  z-index: 4;
+}
+
+.layout-2 {
+  position: absolute;
+  left: 250px;
+  top: 120px;
+  width: 650px;
   z-index: 2;
 }
 
-#layout-2{
+.layout-3 {
   position: absolute;
-  margin-left: 150px;
-  margin-top: 120px;
-  width: 1000px;
+  left: 700px;
+  top: 350px;
+  width: 370px;
   z-index: 3;
 }
 
-#layout-3{
+.layout-4{
   position: absolute;
-  margin-left: 65px;
-  margin-top: 25px;
-  width: 1182px;
-  z-index: 3;
-}
-
-#layout-4{
-  position: absolute;
-  margin-left: 240px;
-  margin-top: 900px;
+  left: 290px;
+  top: 1000px;
   width: 900px;
-  z-index: 4;
+  z-index: 5;
 }
 
-#layout-5{
+.content_1 .block_1{
   position: absolute;
-  margin-left: 948px;
-  margin-top: 230px;
+  left: 550px;
+  top: 20px;
+  width: 680px;
+  height: 210px;
+  background-image: url(image/yellow.png);
+  background-size: 100%;
+  z-index: 5;
+}
+
+.content_1 .block_1 p{
+  font-family: Montserrat;
+  text-transform: uppercase ;
+  margin-top: 65px;
+  margin-left: 25px;
+  font-size: 6.5em;
+}
+
+.content_1 .block_2{
+  position: absolute;
   width: 400px;
-  z-index: 4;
+  height: 300px;
+  top: 220px;
+  left: 900px;
+  background-image: url(image/blue1.png);
+  background-size: 100%;
+  z-index: 6;
+}
+
+.content_1 .block_2 p{
+  margin-top: 45px;
+  font-size: 6.5em;
+  text-align: center;
+  font-family: Roboto;
 
 }
 
-#layout-6{
+
+
+.content_1 .block_3{
   position: absolute;
-  margin-left: 770px;
-  margin-top: 40px;
-  width: 600px;
-  z-index: 5;
+  top: 1300px;
+  left: 350px;
+  width: 1100px;
+  height: 250px;
+  background-image: url(image/red.png);
+  background-size: 100%;
+  z-index: 8;
 }
 
-#layout-7{
-  position: absolute;
-  margin-left: 170px;
-  margin-top: 1200px;
-  width: 945px;
-  z-index: 5;
+.content_1  .block_3 p{
+font-family: Montserrat;
+text-transform: uppercase ;
+margin-top: 110px;
+margin-left: 25px;
+font-size: 6.2em;
+font-weight: 700;
 }
 
 
-#layout-8{
+
+.content_1 .block_4{
   position: absolute;
-  margin-left: 110px;
-  margin-top: 1000px;
+  left: 209px;
+  top: 1100px;
   width: 550px;
   height: 1000px;
+  background-image: url(image/grey.png);
+  background-size: cover;
   z-index: 1;
+  overflow: hidden;
 }
 
-.layer {
-  overflow: hidden;
-  margin-top: 1050px;
-  margin-left: 130px;
-  width: 450px;
-  height: 865px;
-  padding: 5px;
-  z-index: 2;
-  }
-
-#text{
+.content_1 .block_4 p{
  font-family: Montserrat;
  font-size: 25px;
+ margin-left: 50px;
  line-height: 1.2;
 }
 
@@ -118,147 +152,230 @@ html{
 .content_2{
   display: flex;
   position: absolute;
-  margin-right: 20px;
-  margin-top: 1200px;
+  right: 60px;
+  top: 1200px;
   width: 97vw;
   height: 1900px;
-  /* overflow: hidden; */
+
 }
 
-#layout-9{
+.layout-5{
   position: absolute;
-  margin-top: 380px;
-  margin-left: -300px;
+  top: 380px;
+  left: -300px;
   width: 700px;
   z-index: 8;
 }
 
-#layout-10{
+.layout-6{
   position: absolute;
-  margin-top: 280px;
-  margin-left: 520px;
-  width: 700px;
-  z-index: 2;
+  top: 690px;
+  left: 430px;
+  width: 560px;
+  z-index: 5;
 }
 
-#layout-11{
+.layout-7{
   position: absolute;
-  margin-top: 120px;
-  margin-left: 805px;
-  width: 560px;
+  top: 420px;
+  left: 605px;
+  width: 780px;
   z-index: 3;
 }
 
-#layout-12{
+.layout-8{
   position: absolute;
-  margin-top: 710px;
-  margin-left: 410px;
+  top: 800px;
+  left: 950px;
   width: 520px;
   z-index: 3;
 }
 
-#layout-13{
+.content_2 .block_5{
   position: absolute;
-  margin-top: 1050px;
-  margin-left: 720px;
+  top: 1125px;
   width: 700px;
-  z-index: 4;
+  height: 600px;
+  left: 100px;
+  right: 15px;
+  background-image: url(image/red1.png);
+  z-index: 8;
+  background-size: cover;
 }
 
-#text_1{
+.content_2 .block_5 p{
   font-family: Montserrat;
-  font-size: 43px;
+  font-size: 42px;
   position: absolute;
-  margin-top: 1125px;
-  margin-left: 750px;
-  margin-right: 15px;
+  top: 85px;
+  left: 50px;
+  right: 15px;
   font-weight: bold;
   line-height: 1.3;
-  z-index: 4;
 }
 
 .content_3{
   display: flex;
   position: absolute;
-  margin-left: -350px;
-  margin-top: 2430px;
+  left: -350px;
+  top: 2430px;
   width: 97vw;
   height: 2400px;
 }
 
-#layout-14{
+.layout-9{
   position: absolute;
-  margin-top: 300px;
-  margin-left: 400px;
-  width: 550px;
+  top: -100px;
+  left: 900px;
+  width: 700px;
   z-index: 1;
 }
 
-#text_2{
-  font-family: Sawarabi Gothic ;
+.content_3 .block_6{
   position: absolute;
-  margin-left: 420px;
-  margin-top: 320px;
-  margin-right: 570px;
+  left: 1000px;
+  top: 600px;
+  width: 740px;
+  height: 200px;
+  background-image: url(image/yellow.png);
+  background-size: 100%;
+  z-index: 8;
+
+}
+
+.content_3 .block_6 p{
+  font-family: Roboto;
+  margin-top: 75px;
+  margin-left: 25px;
   font-size: 35px;
   font-weight: bold;
   line-height: 1.3;
-  z-index: 2;
+  z-index: 10;
+
 }
 
-#layout-15{
+.layout-10{
   position: absolute;
-  margin-top: 180px;
-  margin-left: 850px;
-  width: 550px;
-  z-index: 3;
+  top: 750px;
+  left: 400px;
+  width: 750px;
+  z-index: 11;
 }
 
-#layout-16{
+.layout-11{
   position: absolute;
-  margin-top: 750px;
-  margin-left: 1200px;
-  width: 550px;
-  z-index: 3;
-}
-
-#layout-17{
-  position: absolute;
-  margin-top: 700px;
-  margin-left: 520px;
+  top: 800px;
+  left: 520px;
   width: 850px;
   z-index: 1;
 }
 
-#layout-18{
+.layout-12{
   position: absolute;
-  margin-top: 1150px;
-  margin-left: 450px;
+  top: 1250px;
+  left: 450px;
   width: 550px;
   z-index: 8;
 }
 
-#layout-19{
+.layout-13{
   position: absolute;
-  margin-top: 950px;
-  margin-left: 950px;
-  width: 500px;
+  top: 1100px;
+  left: 950px;
+  width: 537px;
   z-index: 8;
 }
 
-#layout-20{
+.content_3 .block_7{
   position: absolute;
-  margin-top: 1650px;
-  margin-left: 680px;
-  width: 950px;
+  top: 1780px;
+  left: 850px;
+  height: 200px;
+  width: 900px;
+  background-image: url(image/yellow.png);
+  background-size: cover;
+  z-index: 8;
+}
+
+.content_3 .block_7 p{
+  font-family: Montserrat;
+  margin-top: 100px;
+  margin-left: 25px;
+  font-size: 40px;
+  font-weight: 1000;
+  line-height: 1.3;
+  z-index: 10;
+}
+
+.content_4{
+  position: absolute;
+  top: 4300px;
+}
+
+.layout-14{
+  position: absolute;
+  top: 120px;
+  width: 800px;
   z-index: 9;
 }
 
-/* #text_3 {
-  font-family: Montserrat;
-  margin-left: -300px;
-  margin-top: 1968px;
-  font-weight: 700;
-  font-size: 70px;
-  z-index: 10;
-} */
+.content_4 .block_8 {
+  position: absolute;
+  top: 450px;
+  left: 500px;
+  height: 320px;
+  width: 600px;
+  background-image: url(image/blue1.png);
+  background-size: 100%;
+}
+
+.content_4 .block_8 p {
+  font-family: Roboto;
+  margin-top: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 40px;
+  font-weight: 1000;
+  line-height: 1.3;
+}
+
+.content_4 .block_9{
+  position: absolute;
+  top: 700px;
+  left: 950px;
+  height: 200px;
+  width: 415px;
+  background-image: url(image/white.png);
+  background-size: cover;
+}
+
+#facebook{
+  margin-left: 20px;
+  margin-top: 40px;
+  width: 125px;
+}
+
+#instagram{
+  margin-top: 40px;
+  margin-bottom: -10px;
+  margin-left: 5px;
+  width: 130px;
+}
+
+ #vk{
+  width: 125px;
+  margin-top: 40px;
+}
+
+@media all and (max-width: 1440px) and (min-width: 1024px) {
+  .content_1{
+    margin-left: -300px;
+  }
+  .layout_1{
+
+  }
+
+
+
+
+}
