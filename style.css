@@ -1,4 +1,5 @@
 @import "reset.css";
+@import "media.css";
 @import "https://fonts.googleapis.com/css?family=Montserrat";
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
@@ -6,10 +7,11 @@
 html{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* transition:  */
 }
 
-
+*{
+  transition: 2s;
+}
 
 .back {
   display: flex;
@@ -31,7 +33,6 @@ html{
   right: 20px;
   top: 15px;
   height: 1100px;
-  width: 100%
 }
 
 .layout-1 {
@@ -66,7 +67,7 @@ html{
   z-index: 5;
 }
 
-.content_1 .block_1{
+ .block_1{
   position: absolute;
   left: 550px;
   top: 20px;
@@ -85,7 +86,7 @@ html{
   font-size: 6.5em;
 }
 
-.content_1 .block_2{
+.block_2{
   position: absolute;
   width: 400px;
   height: 300px;
@@ -106,7 +107,7 @@ html{
 
 
 
-.content_1 .block_3{
+.block_3{
   position: absolute;
   top: 1300px;
   left: 350px;
@@ -117,18 +118,16 @@ html{
   z-index: 8;
 }
 
-.content_1  .block_3 p{
-font-family: Montserrat;
-text-transform: uppercase ;
-margin-top: 110px;
-margin-left: 25px;
-font-size: 6.2em;
-font-weight: 700;
+.block_3 p{
+  font-family: Montserrat;
+  text-transform: uppercase ;
+  margin-top: 110px;
+  margin-left: 25px;
+  font-size: 6.2em;
+  font-weight: 700;
 }
 
-
-
-.content_1 .block_4{
+.block_4{
   position: absolute;
   left: 209px;
   top: 1100px;
@@ -140,7 +139,7 @@ font-weight: 700;
   overflow: hidden;
 }
 
-.content_1 .block_4 p{
+.block_4 p{
  font-family: Montserrat;
  font-size: 25px;
  margin-left: 50px;
@@ -191,7 +190,7 @@ font-weight: 700;
   z-index: 3;
 }
 
-.content_2 .block_5{
+.block_5{
   position: absolute;
   top: 1125px;
   width: 700px;
@@ -203,7 +202,7 @@ font-weight: 700;
   background-size: cover;
 }
 
-.content_2 .block_5 p{
+.block_5 p{
   font-family: Montserrat;
   font-size: 42px;
   position: absolute;
@@ -231,11 +230,11 @@ font-weight: 700;
   z-index: 1;
 }
 
-.content_3 .block_6{
+.block_6{
   position: absolute;
   left: 1000px;
   top: 600px;
-  width: 740px;
+  width: 760px;
   height: 200px;
   background-image: url(image/yellow.png);
   background-size: 100%;
@@ -243,10 +242,10 @@ font-weight: 700;
 
 }
 
-.content_3 .block_6 p{
+.block_6 p{
   font-family: Roboto;
   margin-top: 75px;
-  margin-left: 25px;
+  margin-left: 40px;
   font-size: 35px;
   font-weight: bold;
   line-height: 1.3;
@@ -286,7 +285,7 @@ font-weight: 700;
   z-index: 8;
 }
 
-.content_3 .block_7{
+.block_7{
   position: absolute;
   top: 1780px;
   left: 850px;
@@ -297,7 +296,7 @@ font-weight: 700;
   z-index: 8;
 }
 
-.content_3 .block_7 p{
+.block_7 p{
   font-family: Montserrat;
   margin-top: 100px;
   margin-left: 25px;
@@ -319,7 +318,7 @@ font-weight: 700;
   z-index: 9;
 }
 
-.content_4 .block_8 {
+.block_8 {
   position: absolute;
   top: 450px;
   left: 500px;
@@ -329,7 +328,7 @@ font-weight: 700;
   background-size: 100%;
 }
 
-.content_4 .block_8 p {
+.block_8 p {
   font-family: Roboto;
   margin-top: 80px;
   margin-left: 50px;
@@ -339,7 +338,7 @@ font-weight: 700;
   line-height: 1.3;
 }
 
-.content_4 .block_9{
+.block_9{
   position: absolute;
   top: 700px;
   left: 950px;
@@ -349,33 +348,20 @@ font-weight: 700;
   background-size: cover;
 }
 
-#facebook{
+.facebook{
   margin-left: 20px;
   margin-top: 40px;
   width: 125px;
 }
 
-#instagram{
+.instagram{
   margin-top: 40px;
   margin-bottom: -10px;
   margin-left: 5px;
   width: 130px;
 }
 
- #vk{
+ .vk{
   width: 125px;
   margin-top: 40px;
-}
-
-@media all and (max-width: 1440px) and (min-width: 1024px) {
-  .content_1{
-    margin-left: -300px;
-  }
-  .layout_1{
-
-  }
-
-
-
-
 }
